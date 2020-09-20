@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/MyCreations/BubblessAnimation/Animation.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css">
+
+    
+</head>
+<body>
+
+<!-- /* ------------------------ Background ----------------------------------- */ -->
+
+    <div class="hero">
+
+<!-- /* ------------------------ Nav Bar -------------------------------- */ -->
+
+        <div id="navbar">
+            <img src="/MyCreations/BubblessAnimation/logo_gray.png" alt="logo" class="logo wow fadeInDown">
+
+            <div class="menulink wow fadeInDown" data-woo-duration="1.5s">
+                <ul id="ulN">
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#home"> Services</a></li>
+                    <li><a href="#home"> About us</a></li>
+                    <li><a href="#home"> Contact</a></li>
+                    <li><a href="#home"> Help</a></li>
+
+                    <button id="navBtn" > Sign Up</button>
+                </ul>
+
+                
+            </div>
+           
+           
+        </div>
+
+<!-- /* ------------------------ End Nav Bar ------------------------------------ */ 
+
+ /* ------------------------ Container -------------------------------- */ -->
+
+        <div class="container">
+            <small class="wow fadeInDown"data-wow-delay=".3s"> WELCOME TO XING WORLD </small> 
+            <span class="wow fadeInDown"  >XING GRAPHICS  </span>
+            <h1 class="wow fadeInDown"> Graphic Designing-Web Development, 3D Designing, Video Visualasing and Branding   </h1>
+            <button class="wow fadeInDown" >Take a Tour</button>
+        </div>
+
+<!-- /* ------------------------ End Container ----------------------------------- */
+
+
+ /* ------------------------ Side Bar ----------------------------------- */ -->
+
+        <div class="side-bar ">
+            <img src="/MyCreations/BubblessAnimation/Menu Button.png" alt="" id="linkBtn" >
+
+            <div class="social-media ">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-twitter" ></i>
+            </div>
+            <div class="about">
+                <i class="fa fa-share-alt"></i>
+                <i class="fa fa-question"></i>
+            </div>
+        </div>
+
+<!-- /* ------------------------ End Side Bar  ----------------------------------- */ -->
+
+<!-- /* ------------------------ Bubbles  ----------------------------------- */ -->
+
+        <div class="bubbles">
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 1 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 2 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 3 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 4 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 5 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 6 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 7 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 8 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 9 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 10 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 11 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 12 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 13/* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 14 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 15 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 16 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 17 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 18 /* -->
+            <img src="/MyCreations/BubblessAnimation/Bobbles.png" alt=""> <!-- */ 19 /* -->
+        </div>
+<!-- /* ------------------------ End Bubbles  ----------------------------------- */ -->
+
+    </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+   <script>
+       new WOW().init();
+   </script>
+
+<!-- For Small Diveses  -->
+
+   <script>
+      
+        var linkBtn = document.getElementById("linkBtn");
+        var ulN = document.getElementById("ulN");
+
+        ulN.style.right = "-180px";
+
+        linkBtn.onclick = function(){
+
+            if (ulN.style.right == "-180"){
+                ulN.style.right = "0"
+            }
+            else (ulN.style.right = "-180");
+        
+        }
+
+        
+
+   </script>
+</body>
+</html>
