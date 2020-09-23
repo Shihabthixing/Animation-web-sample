@@ -8,7 +8,7 @@
 /* ------------------------ Background --------------------------------  */
 .hero{
     width: 100%;
-    background: radial-gradient(#00000000, #0000007a), url(/MyCreations/BubblessAnimation/forest-grass-fog-trees-foliage.jpg);
+    background: radial-gradient(#00000000, #0000007a), url(./forest-grass-fog-trees-foliage.jpg);
     height: 100vh;
     background-size: cover;
     background-position: top;
