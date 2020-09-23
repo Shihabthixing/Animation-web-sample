@@ -329,7 +329,7 @@ button:hover{
     .logo{
         width: 100px;
         align-self: flex-start;
-        margin-top: 55px;
+        margin-top: 25px;
     }
 
     
@@ -382,7 +382,7 @@ button:hover{
 
     .container{
         position: absolute;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
         left: 18%;
     }
